@@ -1,0 +1,98 @@
+{
+  "common": {
+    "remove": "Remove",
+    "save": "Save",
+    "cancel": "Cancel",
+    "loading": "Loading...",
+    "search": "Search",
+    "logout": "Logout"
+  },
+  "nav": {
+    "marketStatus": "Market Status",
+    "investmentCalculator": "Investment Calculator",
+    "smartTrading": "Smart Trading",
+    "settings": "Settings"
+  },
+  "calculator": {
+    "title": "Investment Calculator (Compound Profits)",
+    "initialInvestment": "Initial Investment",
+    "profitMargin": "Profit Margin per Trade",
+    "numberOfTrades": "Number of Trades",
+    "averageProfitPerTrade": "Average Profit per Trade",
+    "totalProfit": "Total Profit",
+    "finalAmount": "Final Amount",
+    "compoundProgress": "Compound Trades Progress",
+    "tradeNumber": "Trade #",
+    "investmentAmount": "Investment Amount",
+    "expectedProfit": "Expected Profit",
+    "totalAfterTrade": "Total After Trade",
+    "status": "Status",
+    "action": "Action",
+    "completed": "Completed",
+    "pending": "Pending"
+  },
+  "market": {
+    "overview": "Market Overview",
+    "showingTopSignals": "Showing Top Signals",
+    "tradingSignals": "Trading Signals",
+    "searchPairs": "Search trading pairs...",
+    "symbol": "Symbol",
+    "price": "Price",
+    "change24h": "24h Change",
+    "adx": "ADX",
+    "rsi": "RSI",
+    "ema50": "EMA 50",
+    "ema200": "EMA 200",
+    "signal": "Signal",
+    "strength": "Strength",
+    "delayed": "delayed"
+  },
+  "signals": {
+    "STRONG_BUY": "Strong Buy",
+    "STRONG_SELL": "Strong Sell",
+    "NEUTRAL": "Neutral"
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "languageDescription": "Choose your preferred language",
+    "theme": "Theme",
+    "themeDescription": "Toggle between light and dark theme",
+    "lightMode": "Light Mode",
+    "darkMode": "Dark Mode",
+    "profile": {
+      "title": "Profile",
+      "username": "Username",
+      "enterUsername": "Enter username",
+      "currentPassword": "Current Password",
+      "enterCurrentPassword": "Enter current password",
+      "newPassword": "New Password",
+      "enterNewPassword": "Enter new password",
+      "confirmPassword": "Confirm Password",
+      "confirmNewPassword": "Confirm new password",
+      "updateSuccess": "Profile updated successfully",
+      "updateProfile": "Update Profile",
+      "passwordMismatch": "Passwords do not match",
+      "usernameRequired": "Username is required"
+    },
+    "exchanges": {
+      "title": "Exchange API Settings",
+      "select": "Select Exchange",
+      "apiKey": "API Key",
+      "apiSecret": "API Secret",
+      "add": "Add Exchange",
+      "connected": "Connected Exchanges",
+      "balance": "Balance",
+      "validation": {
+        "success": "API connection successful",
+        "error": "Invalid API credentials"
+      }
+    }
+  },
+  "smartTrading": {
+    "title": "Smart Trading",
+    "description": "Best Trading Signals",
+    "noSignals": "No signals available at the moment",
+    "refreshing": "Refreshing signals..."
+  }
+}

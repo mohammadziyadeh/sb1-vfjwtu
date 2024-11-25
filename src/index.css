@@ -1,0 +1,208 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-primary: #111827;
+  --bg-secondary: #1F2937;
+  --text-primary: #FFFFFF;
+  --text-secondary: #9CA3AF;
+  --border-color: #374151;
+  --input-bg: #374151;
+  --card-bg: #1F2937;
+  --hover-bg: #374151;
+}
+
+/* Theme Classes */
+.dark {
+  --bg-primary: #111827;
+  --bg-secondary: #1F2937;
+  --text-primary: #FFFFFF;
+  --text-secondary: #9CA3AF;
+  --border-color: #374151;
+  --input-bg: #374151;
+  --card-bg: #1F2937;
+  --hover-bg: #374151;
+}
+
+.light {
+  --bg-primary: #F3F4F6;
+  --bg-secondary: #FFFFFF;
+  --text-primary: #111827;
+  --text-secondary: #4B5563;
+  --border-color: #E5E7EB;
+  --input-bg: #F9FAFB;
+  --card-bg: #FFFFFF;
+  --hover-bg: #F3F4F6;
+}
+
+/* Apply theme colors */
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Responsive table styles */
+@media (max-width: 640px) {
+  .table-container {
+    margin: 0 -1rem;
+  }
+  
+  .table-scroll {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+/* Custom scrollbar for Webkit browsers */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border-color);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--hover-bg);
+}
+
+/* Firefox scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--border-color) var(--bg-primary);
+}
+
+/* Base styles */
+.bg-gray-900 {
+  background-color: var(--bg-primary) !important;
+}
+
+.bg-gray-800 {
+  background-color: var(--card-bg) !important;
+}
+
+.bg-gray-700 {
+  background-color: var(--input-bg) !important;
+}
+
+.text-gray-400 {
+  color: var(--text-secondary) !important;
+}
+
+/* Table Styles */
+table {
+  border-color: var(--border-color) !important;
+}
+
+tr {
+  border-color: var(--border-color) !important;
+}
+
+/* Input Styles */
+input, select {
+  background-color: var(--input-bg) !important;
+  color: var(--text-primary) !important;
+  border-color: var(--border-color) !important;
+}
+
+input::placeholder {
+  color: var(--text-secondary) !important;
+}
+
+/* Button Styles */
+button:hover {
+  background-color: var(--hover-bg) !important;
+}
+
+/* Card Styles */
+.shadow-lg {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
+}
+
+/* RTL Support */
+[dir="rtl"] {
+  .ml-auto {
+    margin-left: unset;
+    margin-right: auto;
+  }
+
+  .mr-auto {
+    margin-right: unset;
+    margin-left: auto;
+  }
+
+  .ml-2 {
+    margin-left: unset;
+    margin-right: 0.5rem;
+  }
+
+  .mr-2 {
+    margin-right: unset;
+    margin-left: 0.5rem;
+  }
+
+  .ml-3 {
+    margin-left: unset;
+    margin-right: 0.75rem;
+  }
+
+  .mr-3 {
+    margin-right: unset;
+    margin-left: 0.75rem;
+  }
+
+  .space-x-2 > * + * {
+    margin-left: unset;
+    margin-right: 0.5rem;
+  }
+
+  .space-x-3 > * + * {
+    margin-left: unset;
+    margin-right: 0.75rem;
+  }
+
+  .text-left {
+    text-align: right;
+  }
+
+  .text-right {
+    text-align: left;
+  }
+}
+
+/* Mobile optimizations */
+@media (max-width: 640px) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .card {
+    border-radius: 0.75rem;
+  }
+}
+
+/* Tablet optimizations */
+@media (min-width: 641px) and (max-width: 1024px) {
+  .container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+/* Desktop optimizations */
+@media (min-width: 1025px) {
+  .container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "common": {
+    "remove": "حذف",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "loading": "جاري التحميل...",
+    "search": "بحث",
+    "logout": "تسجيل الخروج"
+  },
+  "nav": {
+    "marketStatus": "حالة السوق",
+    "investmentCalculator": "حاسبة الاستثمار",
+    "smartTrading": "التداول الذكي",
+    "settings": "الإعدادات"
+  },
+  "calculator": {
+    "title": "حاسبة الاستثمار (الأرباح المركبة)",
+    "initialInvestment": "الاستثمار الأولي",
+    "profitMargin": "نسبة الربح لكل صفقة",
+    "numberOfTrades": "عدد الصفقات",
+    "averageProfitPerTrade": "متوسط الربح لكل صفقة",
+    "totalProfit": "إجمالي الربح",
+    "finalAmount": "المبلغ النهائي",
+    "compoundProgress": "تقدم الصفقات المركبة",
+    "tradeNumber": "صفقة رقم",
+    "investmentAmount": "مبلغ الاستثمار",
+    "expectedProfit": "الربح المتوقع",
+    "totalAfterTrade": "الإجمالي بعد الصفقة",
+    "status": "الحالة",
+    "action": "الإجراء",
+    "completed": "مكتملة",
+    "pending": "قيد الانتظار"
+  },
+  "market": {
+    "overview": "نظرة عامة على السوق",
+    "showingTopSignals": "عرض أفضل الإشارات",
+    "tradingSignals": "إشارات التداول",
+    "searchPairs": "البحث عن أزواج التداول...",
+    "symbol": "الرمز",
+    "price": "السعر",
+    "change24h": "التغير 24س",
+    "adx": "مؤشر ADX",
+    "rsi": "مؤشر RSI",
+    "ema50": "المتوسط المتحرك 50",
+    "ema200": "المتوسط المتحرك 200",
+    "signal": "الإشارة",
+    "strength": "القوة",
+    "delayed": "متأخر"
+  },
+  "signals": {
+    "STRONG_BUY": "شراء قوي",
+    "STRONG_SELL": "بيع قوي",
+    "NEUTRAL": "محايد"
+  },
+  "settings": {
+    "title": "الإعدادات",
+    "language": "اللغة",
+    "languageDescription": "اختر لغتك المفضلة",
+    "theme": "المظهر",
+    "themeDescription": "التبديل بين المظهر الفاتح والداكن",
+    "lightMode": "المظهر الفاتح",
+    "darkMode": "المظهر الداكن",
+    "profile": {
+      "title": "الملف الشخصي",
+      "username": "اسم المستخدم",
+      "enterUsername": "أدخل اسم المستخدم",
+      "currentPassword": "كلمة المرور الحالية",
+      "enterCurrentPassword": "أدخل كلمة المرور الحالية",
+      "newPassword": "كلمة المرور الجديدة",
+      "enterNewPassword": "أدخل كلمة المرور الجديدة",
+      "confirmPassword": "تأكيد كلمة المرور",
+      "confirmNewPassword": "تأكيد كلمة المرور الجديدة",
+      "updateSuccess": "تم تحديث الملف الشخصي بنجاح",
+      "updateProfile": "تحديث الملف الشخصي",
+      "passwordMismatch": "كلمات المرور غير متطابقة",
+      "usernameRequired": "اسم المستخدم مطلوب"
+    },
+    "exchanges": {
+      "title": "إعدادات المنصات",
+      "select": "اختر المنصة",
+      "apiKey": "مفتاح API",
+      "apiSecret": "كلمة سر API",
+      "add": "إضافة منصة",
+      "connected": "المنصات المتصلة",
+      "balance": "الرصيد",
+      "validation": {
+        "success": "تم الاتصال بنجاح",
+        "error": "خطأ في بيانات API"
+      }
+    }
+  },
+  "smartTrading": {
+    "title": "التداول الذكي",
+    "description": "أفضل إشارات التداول",
+    "noSignals": "لا توجد إشارات متاحة حالياً",
+    "refreshing": "جاري تحديث الإشارات..."
+  }
+}
